@@ -1,0 +1,204 @@
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0)); /* dark fade from top to bottom */
+  pointer-events: none; /* allow clicking through gradient */
+}
+
+
+
+
+
+
+
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+
+}
+body{
+background: linear-gradient( to bottom ,rgba(112, 102, 102, 0.363)  rgba(0, 0, 0, 0.354));
+}
+
+.box1{
+  height: 300px;
+  width:230px;
+  background-image: url("https://media.istockphoto.com/id/1440248218/photo/a-researcher-in-an-orchard-uses-a-tablet-to-record-the-growth-of-oranges.jpg?s=2048x2048&w=is&k=20&c=sV9P5KfBx0TKzOzAB58xop0qvwiVykhD6_QQ8XbHg4Q=");
+  text-align: center;
+
+  border: 5px solid  rgba(105, 102, 102, 0.473);
+  border-radius: 5px;
+  background-size: cover;
+  color: black;
+  display: inline-block;
+  justify-content: space-between;
+  margin-left: 90px;
+  margin-top: 300px;
+  justify-content: end;
+  box-shadow: 10px 10px 10px rgba(61, 61, 61, 0.37);
+  
+
+}
+.box2{
+
+  height: 290px;
+  width:230px;
+  background-image: url("https://media.istockphoto.com/id/1098281870/photo/farmer-standing-with-tractor-stock-image.jpg?s=612x612&w=0&k=20&c=6Kx4blssJs4VXfNdTD960xzIakeDGhtzQc7SolF7Gzk=");
+  text-align: center;
+  border: 5px solid  rgba(0, 0, 0, 0.473);
+  border-radius: 5px;
+  color: black;
+  display:inline-block;
+  justify-content: space-between;
+margin-left: 115px;
+margin-top: 310px;
+background-size: cover;
+justify-content: end;
+
+
+  box-shadow: 10px 10px 10px rgba(61, 61, 61, 0.37);
+
+
+}
+.box3{
+  
+  height: 290px;
+  width:230px;
+  background-image: url("https://media.istockphoto.com/id/1495642314/photo/building-a-pond-from-plastic.jpg?s=612x612&w=is&k=20&c=gFZpScUmsyh2t4sL4KZNgqTwlPLwo1c0oKQF2wg75-o=");
+  text-align: center;
+  border: 5px solid  rgba(0, 0, 0, 0.473);
+  border-radius: 5px;
+  color: black;
+  display:inline-block;
+  justify-content: space-between;
+  margin-left: 130px;
+  margin-top: 310px;
+  background-size: cover;
+  justify-content: end;
+  
+  box-shadow: 10px 10px 10px rgba(61, 61, 61, 0.37);
+
+}
+
+.box4{
+  
+  height: 290px;
+  width:230px;
+  background-image: url("https://media.istockphoto.com/id/2254428531/photo/three-rural-indian-farmers-using-smart-phone-at-agriculture-field-happy-senior-male-friends.jpg?s=612x612&w=0&k=20&c=nKwJuFzvk_qwcruGjGTUv89Ow33j1fXuViXYEEfybdE=");
+  text-align: center;
+  border: 5px solid  rgba(0, 0, 0, 0.473);
+  border-radius: 5px;
+  color: black;
+  display:inline-block;
+  justify-content: space-between;
+  margin-left: 145px;
+  margin-top: 310px;
+  background-size: cover;
+  box-shadow: 10px 10px 10px rgba(61, 61, 61, 0.37);
+  justify-content: end;
+
+}
+
+.ab{
+  text-align: center;
+  h1{
+    text-align: center;
+  }
+
+
+}
+.box1:hover{
+color: hwb(11 3% 7%);
+  background: transparent;
+  box-shadow: 10px 20px 20px black;
+}
+.box2:hover{
+  color: rgb(231, 46, 13);
+  background: transparent;
+  box-shadow: 10px 20px 20px black;
+}
+.box3:hover{
+  color: rgb(245, 47, 7);
+  background: transparent;
+  box-shadow: 10px 20px 20px black;
+}
+.box4:hover{
+  color: rgb(199, 91, 69);
+  background: transparent;
+  box-shadow: 10px 20px 20px black;
+}
+
+.main{
+  border-radius: 10px;
+  display: flex;
+  background: linear-gradient(to bottom,rgb(81, 78, 78) rgb(108, 101, 101));
+
+}
+
+
+.img{
+  height: 700px;
+  width: 100%;
+  background:linear-gradient(to bottom,rgba(244, 242, 242, 0.068),rgb(209, 199, 199)) ,url("https://images.unsplash.com/photo-1527847263472-aa5338d178b8?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  H1{
+    text-align: center;
+    color: brown;
+    .tra{
+      height: 20px;
+      width: 70px;
+      background-color: rgb(241, 107, 11);
+      border: 5px solid rgb(182, 120, 76);
+    }
+  }
+
+
+h1:hover{
+  color: black;
+  background-color: burlywood;
+}
+
+.form{
+  height: 300px;
+  width: 300px;
+  border: 8px solid black;
+  margin-top: 200%;
+  margin-left: 200%;
+  background-color: rgb(91, 158, 158);
+}
+
+}
+
+
+.solar{
+  height:700px;
+  width:100%;
+
+  background-image: url("https://media.istockphoto.com/id/1613629021/photo/young-male-technician-worker-wearing-green-vests-and-helmet-checks-the-maintenance-of-the.jpg?s=1024x1024&w=is&k=20&c=5HAP2sWoZ9sAPUUzF59D91c5cLoiJ1mjWB_Hv1Cxw4g=");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
